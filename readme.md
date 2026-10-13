@@ -12,6 +12,9 @@ Classification of crystal symmetry (**cubic, monoclinic, tetragonal, and orthorh
 ## Background
 Diffraction peak overlap and pattern similarity lead to inaccurate lattice parameter readings, a process that depends heavily on manual analysis. This challenge is particularly relevant for **perovskite** materials, which are used in a wide range of applications and therefore require an accurate method for identifying their crystal symmetry.
 
+## Dataset
+The dataset is available on Hugging Face: [ersky/Classification-Crystal-Symmetry-Perovskite-using-Deep-Learning](https://huggingface.co/datasets/ersky/Classification-Crystal-Symmetry-Perovskite-using-Deep-Learning)
+
 ## Methodology
 1. **Data augmentation** to balance the class proportions across crystal systems.
 2. **Data splitting** into training, validation, and test sets.
@@ -30,4 +33,3 @@ This method enables objective, reproducible, and accurate identification of crys
 
 ## Keywords
 `XRD` · `1D CNN` · `Whale Optimization Algorithm` · `Crystal Symmetry` · `Perovskite` · `Deep Learning`
-
